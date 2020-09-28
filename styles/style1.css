@@ -24,7 +24,7 @@ nav ul{
     position:fixed;
     background-color: bisque;
     background-color: pink;
-    transition:ease 0.4s;
+    transition:ease 0.2s;
     top:-1000px;
     width:100%;
     border-bottom:solid 4px purple;
@@ -50,7 +50,7 @@ nav ul li:hover{
     color:white;
 }
 nav img{
-    padding:10px;
+    padding:15px 30px;
 }
 
 
@@ -60,19 +60,12 @@ nav img{
     flex-direction: row;
     flex-wrap:wrap;
     flex:100%;
-    background-color: salmon;
+    background-color: salmn;
     width:90%;
     margin:auto;
 }
 
-#main-content h3{
-    width:60%;
-    margin:auto;
-    background: rgba(255,255,255,0.9);
-    padding:10px;
-    border-radius: 10px;
-    
-}
+
 
 #main-content p{
     flex:100%;
@@ -80,7 +73,38 @@ nav img{
     padding:10px;
 }
 
+#intro{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:solid 2px blueviolet;
+    background:linear-gradient(to right, rgba(0,0,0,0.7),
+    rgba(0,0,150,0.05));
+    border-radius: 20px;
+    color:white;
+    font-family: sans-serif;
+    flex:100%;
+    border-right: hidden;
+    border-top: hidden;
+}
+#intro h4{
+    flex:60%;
+    padding:10px;
+    border-radius: 10px;   
+    height:100%;
+}
+#img1{
+    flex:40%;
+    
+}
+#intro img{
+    max-width:100%;
+    height:auto;
+    align-items: flex-end;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 
+}
 
 
 @media screen and (max-width:500px){
