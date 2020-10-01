@@ -83,19 +83,20 @@ nav img{
     color:white;
     font-family: sans-serif;
     flex:100%;
+    border-top:hidden;
+    border-right:hidden;
 }
 #intro h4{
     flex:60%;
     padding:10px;
     border-radius: 10px;   
-    height:100%;
 }
 #img1{
-    flex:40%;
+    flex:35%;
     
 }
 #intro img{
-    max-width: 70%;
+    max-width: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding:5px;
