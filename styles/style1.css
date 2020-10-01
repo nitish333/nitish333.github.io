@@ -78,7 +78,7 @@ nav img{
     flex-wrap: wrap;
     border:solid 2px #41e332;
     background:linear-gradient(to right, rgba(0,0,0,0.7),
-    rgba(0,0,150,0.05));
+    rgba(0,250,0,0.05));
     border-radius: 20px;
     color:white;
     font-family: sans-serif;
@@ -97,18 +97,17 @@ nav img{
     
 }
 #intro img{
-    max-width:100%;
-    height:auto;
-    align-items: flex-end;
+    max-width: 70%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding:5px;
 
 }
 
 
 @media screen and (min-width:800px){
 body{
-    width:40%;
+    width:50%;
     margin:auto;
 }
 }
