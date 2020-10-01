@@ -83,8 +83,6 @@ nav img{
     color:white;
     font-family: sans-serif;
     flex:100%;
-    border-right: hidden;
-    border-top: hidden;
 }
 #intro h4{
     flex:60%;
