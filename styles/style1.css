@@ -23,8 +23,8 @@ nav{
     align-items: center;
 }
 
-nav h3{
-    font-size: 200%;
+nav h4{
+    font-size: 150%;
     padding-left: 10px;
 }
 
@@ -34,7 +34,6 @@ nav h3{
     transition:ease 0.2s;
     background-color: white;
     top:-1000px;
-    width:100%;
     border-bottom:solid 4px #3f7d20;
 }
 

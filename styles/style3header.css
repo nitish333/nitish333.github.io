@@ -1,0 +1,94 @@
+/* 
+
+<header>
+        <nav>
+            <img src="images/menu-icon-4.png"
+            onclick="toggleBar()">
+            <ul id="sidebar-1">
+                <li onclick="toggleBar()" id="upper">                    
+                    <b>
+                        ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+                    </b></li>
+                <li><a class="active-1">home</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#about">about</a></li>
+            </ul>
+            <h4>Nitish' profile</h4>
+        </nav>
+        </header>
+
+*/
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: springgreen;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#sidebar-1{
+
+    position:fixed;
+    transition:ease 0.2s;
+    background-color: white;
+    top:-1000px;
+    border-bottom:solid 4px #3f7d20;
+}
+
+.active-1{
+    background-color: greenyellow;
+}
+
+#sidebar-1 li {
+    list-style: none;
+    display:block;
+    text-align: center;
+}
+#sidebar-1 #upper{
+    padding:10px 10px;
+
+}
+
+#sidebar-1 li a{
+    text-decoration: none;
+    color:#000;      
+    padding:10px 90px ;
+    display:block;
+    
+
+}
+
+#sidebar-1 li:hover{
+    background-color: #41e332;
+    color:white;
+}
+
+nav img{
+    padding:15px 80px 15px 15px;
+}
+
+nav h4{
+    font-size: 150%;
+}
+
+
+@media screen and (min-width:800px){
+    body{
+        width:50%;
+        margin:auto;
+        height:100vh;
+    }
+}
