@@ -9,7 +9,6 @@ body{
     ,url('../images/mac4.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
     width:auto;
 }
 
@@ -92,29 +91,35 @@ nav img{
 }
 
 #intro{
-    display:flex;
+    /* display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    flex:100%;
     border:solid 2px #41e332;
     background:linear-gradient(to right, rgba(0,0,0,0.7),
     rgba(0,0,0,0.15));
     border-radius: 20px;
     color:white;
     font-family: sans-serif;
-    flex:100%;
     border-top:hidden;
     border-right:hidden;
 
 }
 #intro h4{
-    flex:60%;
+    
     padding:10px;
     border-radius: 10px;   
     font-family: Verdana,
     Geneva, Tahoma, sans-serif;
 }
 #img1{
-    flex:35%;
+    max-width: 50%;
+    height:auto;
+    float: right;
+    padding:10px;
+}
+#img2{
+    display:none;
 }
 #intro img{
     max-width: 100%;
@@ -153,9 +158,10 @@ nav img{
 body{
     width:60%;
     margin:auto;
+    height:100vh;
 }
 #img1{
-    flex:15%;
+    width:30%;
 }
 
 }
