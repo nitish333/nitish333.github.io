@@ -20,7 +20,7 @@ nav{
 }
 
 nav h3{
-    font-size: 200%;
+    font-size: 170%;
     padding-left: 10px;
 }
 
@@ -74,9 +74,11 @@ nav img{
 
 #main-content-1 h3{
     border:solid 2px khaki;
-    padding:10px;
-    text-align: center;
+    padding:15px;
     background-color: khaki;
+    margin:10px;
+    border-radius: 15px;
+
 }
 
 #graphic-library-1{

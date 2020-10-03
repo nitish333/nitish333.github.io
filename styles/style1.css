@@ -24,7 +24,7 @@ nav{
 }
 
 nav h4{
-    font-size: 150%;
+    font-size: 170%;
     padding-left: 10px;
 }
 
@@ -37,9 +37,6 @@ nav h4{
     border-bottom:solid 4px #3f7d20;
 }
 
-.active-1{
-    background-color: greenyellow;
-}
 
 #sidebar-1 li {
     list-style: none;
@@ -56,8 +53,6 @@ nav h4{
     color:#000;      
     padding:10px 90px ;
     display:block;
-    
-
 }
 
 #sidebar-1 li:hover{

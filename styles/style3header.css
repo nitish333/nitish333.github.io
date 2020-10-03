@@ -49,7 +49,7 @@ nav{
 }
 
 .active-1{
-    background-color: greenyellow;
+    background-color: #aaa;
 }
 
 #sidebar-1 li {
@@ -81,7 +81,7 @@ nav img{
 }
 
 nav h4{
-    font-size: 150%;
+    font-size: 170%;
 }
 
 
@@ -90,5 +90,8 @@ nav h4{
         width:50%;
         margin:auto;
         height:100vh;
+    }
+    nav h4{
+        font-size: 200%;
     }
 }
